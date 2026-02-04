@@ -2,14 +2,16 @@
 <html>
 <head>
     
-    <title>ass</title>
+    <title>assignment</title>
 </head>
 <body>
-    <script>
-        document.getElementById('myname').innerHTML = 'Varun';
-    </script>
-    <h1>My name is Varun<span id="myname"></span></h1>
+    <h1 id="heading"></h1>
     <br>
-    <img src="image.jpg" alt="Your Image"/>
+    <img id="image" alt="Your Image" />
+
+    <script>
+        document.getElementById('heading').innerHTML = 'my name is Varun';
+        document.getElementById('image').src = 'image.jpg';
+    </script>
 </body>
 </html>
